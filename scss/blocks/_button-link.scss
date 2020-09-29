@@ -1,6 +1,8 @@
 .button-link {
   display: inline-block;
-  padding: 8px 33px;
+  text-align: center;
+  width: 173px;
+  padding: 8px 15px;
   text-decoration: none;
   color: #fff;
   font-weight: 500;
@@ -8,7 +10,7 @@
   line-height: 28px;
   background-image: $linear-gradient;
   border-radius: 22px;
-  transition: opacity 0.3s ease;
+  transition: $opc-transition;
 }
 
 .button-link:hover {
@@ -16,8 +18,8 @@
 }
 
 
-@media only screen and (max-width: 755px) {
-  .button-link {
+@media only screen and (max-width: 765px) {
+  .navmenu-togler ~ .button-link {
     display: none;
   }
 }

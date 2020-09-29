@@ -1,0 +1,99 @@
+.choose-easybank {
+  background-color: #F4F5F7;
+  padding-top: 96px;
+  padding-bottom: 40px;
+}
+
+.choose-easyban__header-wrapper {
+  max-width: 640px;
+}
+
+.choose-easybank__heading {
+  font-weight: 100;
+  font-size: 40px;
+  line-height: 64px;
+  color: $heading-color;
+  margin-top: 0;
+  margin-bottom: 16px;
+}
+
+.choose-easybank__text {
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: $text-color;
+  margin-top: 0;
+  margin-bottom: 72px;
+}
+
+.choose-easybank__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.choose-easybank__item {
+  width: 255px;
+  margin-right: 15px;
+  margin-left: 15px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 56px;
+}
+
+.choose-easybank__item::before {
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 40px;
+  content: "";
+}
+
+.choose-easybank__firs-img::before {
+  background-image: url("../../img/icon-online.svg");
+}
+
+.choose-easybank__second-img::before {
+  background-image: url("../../img/icon-budgeting.svg");
+}
+
+.choose-easybank__third-img::before {
+  background-image: url("../../img/icon-onboarding.svg");
+}
+
+.choose-easybank__fourth-img::before {
+  background-image: url("../../img/icon-api.svg");
+}
+
+.choose-easybank__item-header {
+  font-weight: 100;
+  font-size: 24px;
+  line-height: 28px;
+  letter-spacing: -0.428571px;
+  color: $heading-color;
+  margin-top: 0;
+  margin-right: 26px;
+}
+
+.choose-easybank__item-text {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: -0.25px;
+  color: $text-color;
+  margin: 0;
+}
+
+
+@media only screen and (max-width: 1149px) {
+  .choose-easyban__header-wrapper {
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

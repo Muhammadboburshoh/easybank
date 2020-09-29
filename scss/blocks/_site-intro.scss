@@ -1,0 +1,26 @@
+.site-intro {
+  background-image: url("../img/bg-intro-desktop.svg");
+  background-repeat: no-repeat;
+  // background-size: cover;
+  background-position: calc(50%) 0;
+}
+
+.intro__wrapper {
+  padding: 170px 0;
+  max-width: 450px;
+}
+
+.intro__heading {
+  margin-top: 0;
+  color: $heading-color;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  margin-bottom: 24px;
+}
+
+.intro__text {
+  margin-top: 0;
+  color: $text-color;
+}

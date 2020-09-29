@@ -4,10 +4,10 @@ const backyardOpen = document.querySelector(".on-open__backyard")
 
 hamburger.addEventListener("click", () => {
   navmenu.classList.toggle("open-menu")
-  backyardOpen.classList.toggle("on-open__backyard");
+  backyardOpen.classList.toggle("on-open__backyard--open");
 })
 
 backyardOpen.addEventListener("click", () =>{
-  navmenu.classList.remove("open");
-  backyardOpen.classList.remove("on-open__backyard");
+  navmenu.classList.remove("open-menu");
+  backyardOpen.classList.remove("on-open__backyard--open");
 })

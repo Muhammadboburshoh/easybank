@@ -97,3 +97,16 @@
     margin-left: auto;
   }
 }
+
+@media only screen and (max-width: 579px) {
+  .choose-easybank__item {
+    width: 80%;
+    text-align: center;
+  }
+
+  .choose-easybank__item::before {
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+}

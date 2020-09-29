@@ -1,8 +1,12 @@
+// akalar to'g'irlash kerak shuniiiiiiiiiiii
 .site-intro {
-  background-image: url("../img/bg-intro-desktop.svg");
+  position: relative;
+  z-index: 3;
+  background-image:  url("../../img/image-mockups.png"),url("../../img/bg-intro-desktop.svg");
   background-repeat: no-repeat;
-  // background-size: cover;
-  background-position: calc(50%) 0;
+  background-size: 767px 939px, 1271px 1034px;
+  // background-size: contain;
+  background-position:calc(50% + 430px) 35%, calc(50% + 500px) 60%;
 }
 
 .intro__wrapper {

@@ -1,5 +1,13 @@
 @font-face {
-  font-family: "PublicSans-Light";
+  font-family: "Public Sans";
+  font-style: normal;
+  font-weight: 100;
+  src: url("../fonts/public-sans-v4-latin-100.woff2") format("woff2"), url("../fonts/public-sans-v4-latin-100.woff") format("woff");
+       font-display: swap;
+}
+
+@font-face {
+  font-family: "Public Sans";
   src: url("../fonts/PublicSans-Light.woff2") format("woff2"), url("../fonts/PublicSans-Light.woff") format("woff");
   font-weight: 300;
   font-style: normal;
@@ -7,7 +15,7 @@
 }
 
 @font-face {
-  font-family: "PublicSans-Regular";
+  font-family: "Public Sans";
   src: url("../fonts/PublicSans-Regular.woff2") format("woff2"), url("../fonts/PublicSans-Regular.woff") format("woff");
   font-weight: normal;
   font-style: normal;
@@ -15,16 +23,16 @@
 }
 
 @font-face {
-  font-family: 'Public Sans';
+  font-family: "Public Sans";
   font-style: normal;
   font-weight: 500;
   font-display: swap;
-  src: url('../fonts/public-sans-v4-latin-500.woff2') format('woff2'),
-       url('../fonts/public-sans-v4-latin-500.woff') format('woff');
+  src: url("../fonts/public-sans-v4-latin-500.woff2") format("woff2"),
+       url("../fonts/public-sans-v4-latin-500.woff") format("woff");
 }
 
 @font-face {
-  font-family: "PublicSans-Bold";
+  font-family: "Public Sans";
   src: url("../fonts/PublicSans-Bold.woff2") format("woff2"), url("../fonts/PublicSans-Bold.woff") format("woff");
   font-weight: bold;
   font-style: normal;

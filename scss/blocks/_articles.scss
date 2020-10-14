@@ -16,16 +16,24 @@
   @include rest-list;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   margin-right: -15px;
   margin-left: -15px;
 }
 
-.articles__link {
-  display: block;
-  width: 255px;
+.articles__item {
+  background-color: #fff;
   margin-right: 15px;
   margin-left: 15px;
-  background-color: #fff;
+  border-radius: 5px;
+  width: 255px;
+  display: flex;
+  flex-direction: column;
+}
+
+.articles__link {
+  flex-grow: 1;
+  display: block;
   text-decoration: none;
 }
 
@@ -58,4 +66,30 @@
   line-height: 18px;
   letter-spacing: -0.203125px;
   color: $text-color;
+}
+
+@media only screen and (max-width: 1149px) {
+  .articles__heading {
+    text-align: center;
+  }
+
+  .articles__item {
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 579px) {
+  .articles__item {
+    width: 340px;
+  }
+
+  .articles__img {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .articles__item {
+    width: 80%;
+  }
 }

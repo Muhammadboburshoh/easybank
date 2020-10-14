@@ -56,19 +56,19 @@
 }
 
 .choose-easybank__firs-img::before {
-  background-image: url("../../img/icon-online.svg");
+  background-image: url("../img/icon-online.svg");
 }
 
 .choose-easybank__second-img::before {
-  background-image: url("../../img/icon-budgeting.svg");
+  background-image: url("../img/icon-budgeting.svg");
 }
 
 .choose-easybank__third-img::before {
-  background-image: url("../../img/icon-onboarding.svg");
+  background-image: url("../img/icon-onboarding.svg");
 }
 
 .choose-easybank__fourth-img::before {
-  background-image: url("../../img/icon-api.svg");
+  background-image: url("../img/icon-api.svg");
 }
 
 .choose-easybank__item-header {
@@ -88,7 +88,6 @@
   color: $text-color;
   margin: 0;
 }
-
 
 @media only screen and (max-width: 1149px) {
   .choose-easyban__header-wrapper {

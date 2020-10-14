@@ -1,10 +1,16 @@
 .site-footer {
   background-color: $heading-color;
   padding: 45px 0;
+  color: #fff;
 }
 
-.footer__logo {
-  color: #fff;
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__logo-link {
+  display: block;
   margin-bottom: 55px;
 }
 
@@ -17,4 +23,44 @@
 .social-media-logo:hover {
   color: #30C88F;
 }
+
+.navfooter__list {
+  @include rest-list;
+  max-height: 100px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-right: auto;
+  margin-left: 130px;
+}
+
+.navfooter__item {
+  margin-right: 30px;
+}
+
+.navfooter__link {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  width: 160px;
+  &:hover {
+    color: #30C88F;
+  }
+}
+
+.footer__right-wrapper {
+  text-align: right;
+}
+
+.copygrait {
+  font-size: 15px;
+  line-height: 26px;
+  letter-spacing: -0.234375px;
+  opacity: 0.5;
+}
+
+
 
